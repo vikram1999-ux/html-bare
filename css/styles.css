@@ -1,0 +1,83 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.banner1 {
+  background: url(../images/banner1-bg.jpg);
+  position: relative;
+  height: 70vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  color: #01385f;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bgBlue {
+  background-color: #01385f;
+}
+
+.code {
+  border: 2px solid #01385f;
+  white-space: nowrap;
+}
+.discount {
+  position: relative;
+}
+.discount ::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f8dfc8;
+  top: 10px;
+  left: 5px;
+  z-index: -1;
+}
+
+.discount strong {
+  font-size: 35px;
+}
+.shopping {
+  font-weight: 500;
+}
+.shopping div:first-child {
+  line-height: 50px;
+}
+
+.shop1 {
+  color: #a20a31;
+}
+
+.shop2 {
+  color: #a20a31;
+}
+
+.shop5 {
+  color: #01385f;
+}
+
+.shop6 {
+  color: #a20a31;
+}
+
+.shop0 {
+  color: #01385f;
+}
+
+.mid {
+  font-family: "Piazzolla", serif;
+}
+
+@media (max-width: 1100px) {
+  .banner1 {
+    height: 60vh;
+  }
+}
